@@ -8,7 +8,7 @@
 // @import 'mixins';
 @import "reset";
 @import "global";
-@import "nav";
+@import "header";
 
 .header {
   display: flex;
@@ -22,6 +22,15 @@
     margin: 1em;
     p {
       margin: 1.5em 1em;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-around;
+        button {
+            width: 40%;
+            background: white;
+            padding: 1em 3em;
+        }
     }
   }
 }

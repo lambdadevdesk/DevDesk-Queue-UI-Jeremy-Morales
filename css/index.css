@@ -183,6 +183,15 @@ p {
 .content .sections p {
   margin: 1.5em 1em;
 }
+.content .sections .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.content .sections .buttons button {
+  width: 40%;
+  background: white;
+  padding: 1em 3em;
+}
 .footer {
   display: flex;
   justify-content: center;
