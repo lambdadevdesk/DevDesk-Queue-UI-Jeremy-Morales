@@ -142,6 +142,9 @@ body {
 h2 {
   font-size: 2.5em;
 }
+p {
+  font-size: 1.25em;
+}
 @font-face {
   font-family: "Lato";
   src: url("/fonts/Lato-Regular.ttf") format("truetype");
@@ -166,6 +169,7 @@ h2 {
   width: 48%;
   font-family: "Lato-Bold", sans-serif;
   font-size: 3em;
+  text-align: center;
 }
 .header {
   display: flex;
