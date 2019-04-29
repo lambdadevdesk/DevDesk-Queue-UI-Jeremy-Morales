@@ -139,6 +139,9 @@ body {
   font-family: Lato, sans-serif;
   color: #222;
 }
+h2 {
+  font-size: 2.5em;
+}
 @font-face {
   font-family: "Lato";
   src: url("/fonts/Lato-Regular.ttf") format("truetype");
@@ -168,4 +171,17 @@ body {
   display: flex;
   width: 100%;
   flex-flow: row nowrap;
+  background: #efeff3;
+}
+.content .sections {
+  margin: 1em;
+}
+.content .sections p {
+  margin: 1.5em 1em;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background: #efeff3;
+  padding: 2em 0;
 }

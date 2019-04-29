@@ -4,14 +4,31 @@
   padding: 0;
 }
 
-@import 'variables';
+@import "variables";
 // @import 'mixins';
-@import 'reset';
-@import 'global';
-@import 'nav';
+@import "reset";
+@import "global";
+@import "nav";
 
 .header {
-    display: flex;
-    width: 100%;
-    flex-flow: row nowrap;
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  background: @lightgrey;
+}
+
+.content {
+  .sections {
+    margin: 1em;
+    p {
+      margin: 1.5em 1em;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background: @lightgrey;
+  padding: 2em 0;
 }
