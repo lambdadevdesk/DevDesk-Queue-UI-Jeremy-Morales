@@ -161,6 +161,7 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 1em 1em;
+  background: #efeff3;
 }
 .header img {
   width: 48%;
@@ -170,12 +171,6 @@ p {
   font-family: "Lato-Bold", sans-serif;
   font-size: 3em;
   text-align: center;
-}
-.header {
-  display: flex;
-  width: 100%;
-  flex-flow: row nowrap;
-  background: #efeff3;
 }
 .content .sections {
   margin: 1em;
@@ -188,13 +183,17 @@ p {
   justify-content: space-around;
 }
 .content .sections .buttons button {
-  width: 40%;
+  width: 45%;
   background: white;
   padding: 1em 3em;
+  border: 1px solid #55596d;
 }
 .footer {
   display: flex;
   justify-content: center;
   background: #efeff3;
   padding: 2em 0;
+}
+.team .tabs {
+  display: flex;
 }
