@@ -195,5 +195,36 @@ p {
   padding: 2em 0;
 }
 .team .tabs {
+  display: inline-block;
+  width: 100%;
+}
+.team .tabs .tabs-items {
+  width: 100%;
   display: flex;
+  justify-content: center;
+}
+.team .tabs .tabs-item {
+  display: none;
+  width: 75%;
+}
+.team .tabs .tabs-item .tabs-item-title {
+  font-weight: bold;
+}
+.team .tabs .tabs-item-selected {
+  display: block;
+}
+.team .tabs .tabs-links {
+  display: flex;
+  justify-content: center;
+}
+.team .tabs .tabs-link {
+  padding: 1em 1.5em;
+  font-size: 2rem;
+  background-color: #bb1333;
+  border-right: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+.team .tabs .tabs-link:hover {
+  background-color: #e81941;
 }
