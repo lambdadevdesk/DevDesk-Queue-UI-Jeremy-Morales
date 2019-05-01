@@ -227,7 +227,7 @@ p {
   justify-content: space-around;
 }
 .content .sections .buttons button {
-  width: 65%;
+  width: 60%;
   color: white;
   background: #bb1333;
   padding: 1em 3em;
@@ -266,21 +266,20 @@ p {
 }
 .tabs .tabs-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .tabs .tabs-link {
   padding: 0.75em 0.5em;
   font-size: 1.25rem;
-  background-color: #55596d;
+  background-color: #a3a7b8;
   color: white;
-  width: 19.8%;
+  width: 18.8%;
   text-align: center;
-  border-radius: 15px;
   align-items: center;
   cursor: pointer;
 }
 .tabs .tabs-link:hover {
-  background-color: #e81941;
+  background-color: #55596d;
 }
 .tabs .tabs-link-selected {
   z-index: 2;
@@ -288,5 +287,5 @@ p {
   color: black;
 }
 .tabs .tabs-link-selected:hover {
-  background-color: white;
+  background-color: #a3a7b8;
 }

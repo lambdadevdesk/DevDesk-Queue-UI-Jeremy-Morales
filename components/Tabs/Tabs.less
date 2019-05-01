@@ -30,21 +30,21 @@
 
   .tabs-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .tabs-link {
     padding: 0.75em 0.5em;
     font-size: 1.25rem;
-    background-color: @grey;
+    background-color: @testgrey;
     color: white;
-    width: 19.8%;
+    width: 18.8%;
     text-align: center;
-    border-radius: 15px;
+    // border-radius: 15px;
     align-items: center;
     cursor: pointer;
     &:hover {
-      background-color: @lambda-light-red;
+      background-color: @grey;
     }
   }
   .tabs-link-selected {
@@ -53,7 +53,7 @@
     background-color: @lightgrey;
     color: black;
     &:hover {
-      background-color: white;
+      background-color: @testgrey;
     }
   }
 }
