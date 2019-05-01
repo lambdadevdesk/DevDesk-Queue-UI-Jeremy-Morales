@@ -37,33 +37,26 @@
         }
     }
 
-    .menu {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        .menu-links {
-            display: none;
-            width: 100%;
-            
-            @media @desktop {
-                display: flex;
-                justify-content: space-around;
-                padding-left: auto;
-                font-family: "Lato", sans-serif;
-                font-size: 2em;
-            }
-        }
-        .menu-link {
-            color: white;
-            background-color: @testgrey;
-            padding: 10px 14.6%;
-        }
-    }
+   
     
     
     
     
 }
 
+.banner {
+    display: none;
+    @media @desktop {
 
+    
+        display: flex;
+        // width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    img{
+        width: 100%;
+        padding: 0 1px;
+    }
+}

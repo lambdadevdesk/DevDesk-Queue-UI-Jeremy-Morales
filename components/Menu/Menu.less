@@ -1,0 +1,36 @@
+
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .menu-links {
+        display: none;
+        // padding: 10px 0;
+        width: 100%;
+        
+        @media @desktop {
+            display: flex;
+            justify-content: space-around;
+            
+            font-family: "Lato", sans-serif;
+            font-size: 2em;
+        }
+        .menu-link {
+            flex-grow: 1;
+            text-align: center;
+            border-right: 1px solid white;
+            border-left: 1px solid white;
+
+            color: white;
+            background-color: @testgrey;
+            padding: 10px 0;
+            cursor: pointer;
+            &:hover {
+            background-color: @grey;
+        }
+        }
+    }
+    
+}
