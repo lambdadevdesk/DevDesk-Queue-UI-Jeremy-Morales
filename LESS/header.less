@@ -1,6 +1,7 @@
 .header {
     background: @lightgrey;
     display: flex;
+    flex-flow: column wrap;
     .header-container {
     display: flex;
     width: 100%;
@@ -37,17 +38,26 @@
     }
 
     .menu {
+        width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: space-around;
         .menu-links {
             display: none;
+            width: 100%;
             
             @media @desktop {
                 display: flex;
-                justify-content: flex-end;
+                justify-content: space-around;
                 padding-left: auto;
+                font-family: "Lato", sans-serif;
+                font-size: 2em;
             }
+        }
+        .menu-link {
+            color: white;
+            background-color: @testgrey;
+            padding: 10px 14.6%;
         }
     }
     
