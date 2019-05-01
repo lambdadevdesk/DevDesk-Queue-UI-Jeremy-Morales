@@ -1,15 +1,26 @@
 .header {
+    background: @lightgrey;
+    display: flex;
+    .header-container {
     display: flex;
     width: 100%;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
     padding: 1em 1em;
-    background: @lightgrey;
+        @media @desktop {
+        max-width: 1000px;
+        padding-left: auto;
+        padding-right: auto;
+        justify-content: flex-start;
+        padding: 2em;
+    }
 
-    
     img {
         width: 48%;
+        @media @desktop{
+            width: 30%;
+        }
         
     }
     p {
@@ -17,7 +28,17 @@
         font-family: "Lato-Bold", sans-serif;
         font-size: 3em;
         text-align: center;
+        @media @desktop {
+            text-align: left;
+            padding-left: 10px; 
+            font-size: 4em;
+        }
     }
+    }
+    
+    
+    
+    
 }
 
 
