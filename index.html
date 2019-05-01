@@ -15,6 +15,8 @@
   </head>
   <body>
     <script defer="defer" src="./components/Tabs/Tabs.js"></script>
+    <script defer="defer" src="./components/Menu/menu.js"></script>
+
 
     <div class="container">
       <div class="header">
@@ -36,84 +38,96 @@
         <img src="/img/Croppedkeys2.jpg" alt="">
       </div>
       <div class="content">
-        <div class="home sections">
-          <h2>Welcome to DevDesk Queue</h2>
-          <p>
-            At this site you can request help as well as help others through our
-            ticketing system. Requestors can submit tickets as well as check on
-            the status of their ticket. Helpers can pull tickets from the queue,
-            add helpful notes and close tickets, as well as return tickets to
-            the queue if they are unable to solve the issue.
-          </p>
-          <div class="buttons">
-            <button>Login to DevDesk Queue</button>
-          </div>
-        </div>
-        <div class="about sections">
-          <h2>About</h2>
-          <p>
-            This site was designed for Web Part-time 3 through 5's first build
-            week. It was designed to solve a real need to track and route
-            support tickets for students needing assistance from PMs. It will
-            hopefully be able to help future students in the future.
-          </p>
+        <div class="menu-items">
+
+            <div class="home sections menu-item" data-tab="1">
+                <h2>Welcome to DevDesk Queue</h2>
+                <p>
+                  At this site you can request help as well as help others through our
+                  ticketing system. Requestors can submit tickets as well as check on
+                  the status of their ticket. Helpers can pull tickets from the queue,
+                  add helpful notes and close tickets, as well as return tickets to
+                  the queue if they are unable to solve the issue.
+                </p>
+                <div class="buttons">
+                  <button>Login to DevDesk Queue</button>
+                </div>
+              </div>
+              <div class="about sections menu-item" data-tab="2">
+                <h2>About</h2>
+                <p>
+                  This site was designed for Web Part-time 3 through 5's first build
+                  week. It was designed to solve a real need to track and route
+                  support tickets for students needing assistance from PMs. It will
+                  hopefully be able to help future students in the future.
+                </p>
+              </div>
+      
+              <div class="team sections menu-item" data-tab="3">
+                <h2>Team</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita
+                  autem, necessitatibus obcaecati delectus quas doloremque iure
+                  ratione debitis cum.
+                </p>
+                <div class="tabs">
+                  <div class="tabs-links">
+                    <div class="tabs-link" data-tab="1">Christian<br />MacDonald</div>
+                    <div class="tabs-link" data-tab="2">Jeremy<br />Morales</div>
+                    <div class="tabs-link" data-tab="3">Mychal<br />Hall</div>
+                    <div class="tabs-link" data-tab="4">Seun<br />O</div>
+                    <div class="tabs-link" data-tab="5">Xavier<br />Hockin</div>
+                  </div>
+      
+                  <div class="tabs-items">
+                    <div class="tabs-item" data-tab="1">
+                      <!-- <div class="tabs-item-title">Christian MacDonald</div> -->
+                      <div class="tabs-item-description">
+                        <img src="img/placeholder.jpg" alt="" />
+                        <p>Christian MacDonald is an Ewok</p>
+                      </div>
+                    </div>
+                    <div class="tabs-item" data-tab="2">
+                      <!-- <div class="tabs-item-title">Jeremy Morales</div> -->
+                      <div class="tabs-item-description">
+                        <img src="img/placeholder.jpg" alt="" />
+                        <p>Jeremy Morales is a Wookie</p>
+                      </div>
+                    </div>
+                    <div class="tabs-item" data-tab="3">
+                      <!-- <div class="tabs-item-title">Mychal Hall</div> -->
+                      <div class="tabs-item-description">
+                        <img src="img/placeholder.jpg" alt="" />
+                        <p>Mychal Hall is a Gungan</p>
+                      </div>
+                    </div>
+                    <div class="tabs-item" data-tab="4">
+                      <!-- <div class="tabs-item-title">Seun O</div> -->
+                      <div class="tabs-item-description">
+                        <img src="img/placeholder.jpg" alt="" />
+                        <p>Seun O is a Mon Calamari</p>
+                      </div>
+                    </div>
+                    <div class="tabs-item" data-tab="5">
+                      <!-- <div class="tabs-item-title">Xavier Hockin</div> -->
+                      <div class="tabs-item-description">
+                        <img src="img/placeholder.jpg" alt="" />
+                        <p>Xavier Hockin is a Twi'lek</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
         </div>
 
-        <div class="team sections">
-          <h2>Team</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita
-            autem, necessitatibus obcaecati delectus quas doloremque iure
-            ratione debitis cum.
-          </p>
-          <div class="tabs">
-            <div class="tabs-links">
-              <div class="tabs-link" data-tab="1">Christian<br />MacDonald</div>
-              <div class="tabs-link" data-tab="2">Jeremy<br />Morales</div>
-              <div class="tabs-link" data-tab="3">Mychal<br />Hall</div>
-              <div class="tabs-link" data-tab="4">Seun<br />O</div>
-              <div class="tabs-link" data-tab="5">Xavier<br />Hockin</div>
-            </div>
 
-            <div class="tabs-items">
-              <div class="tabs-item" data-tab="1">
-                <!-- <div class="tabs-item-title">Christian MacDonald</div> -->
-                <div class="tabs-item-description">
-                  <img src="img/placeholder.jpg" alt="" />
-                  <p>Christian MacDonald is an Ewok</p>
-                </div>
-              </div>
-              <div class="tabs-item" data-tab="2">
-                <!-- <div class="tabs-item-title">Jeremy Morales</div> -->
-                <div class="tabs-item-description">
-                  <img src="img/placeholder.jpg" alt="" />
-                  <p>Jeremy Morales is a Wookie</p>
-                </div>
-              </div>
-              <div class="tabs-item" data-tab="3">
-                <!-- <div class="tabs-item-title">Mychal Hall</div> -->
-                <div class="tabs-item-description">
-                  <img src="img/placeholder.jpg" alt="" />
-                  <p>Mychal Hall is a Gungan</p>
-                </div>
-              </div>
-              <div class="tabs-item" data-tab="4">
-                <!-- <div class="tabs-item-title">Seun O</div> -->
-                <div class="tabs-item-description">
-                  <img src="img/placeholder.jpg" alt="" />
-                  <p>Seun O is a Mon Calamari</p>
-                </div>
-              </div>
-              <div class="tabs-item" data-tab="5">
-                <!-- <div class="tabs-item-title">Xavier Hockin</div> -->
-                <div class="tabs-item-description">
-                  <img src="img/placeholder.jpg" alt="" />
-                  <p>Xavier Hockin is a Twi'lek</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+
+
+
+
+
       </div>
       <div class="footer">
         <p>Copyright 2019</p>

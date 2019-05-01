@@ -320,3 +320,25 @@ p {
 .menu .menu-links .menu-link:hover {
   background-color: #55596d;
 }
+@media (min-width:800px) {
+  .content .menu-items {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .content .menu-items .home {
+    flex-flow: column nowrap;
+  }
+  .content .menu-item {
+    flex-flow: row nowrap;
+    display: none;
+    width: 75%;
+  }
+  .content .menu-item-selected {
+    display: flex;
+    flex-direction: column;
+  }
+}
