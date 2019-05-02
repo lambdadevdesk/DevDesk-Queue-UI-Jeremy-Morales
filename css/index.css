@@ -273,7 +273,9 @@ p {
   font-size: 1.25rem;
   background-color: #a3a7b8;
   color: white;
-  width: 18.8%;
+  flex-grow: 1;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
   text-align: center;
   align-items: center;
   cursor: pointer;
@@ -321,6 +323,9 @@ p {
   background-color: #55596d;
 }
 @media (min-width:800px) {
+  .content p {
+    font-size: 1.5em;
+  }
   .content .menu-items {
     width: 100%;
     height: 400px;
