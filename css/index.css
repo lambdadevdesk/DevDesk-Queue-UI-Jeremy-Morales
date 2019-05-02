@@ -167,7 +167,7 @@ p {
   justify-content: flex-start;
   padding: 1em 1em;
 }
-@media (min-width:800px) {
+@media (min-width:725px) {
   .header .header-container {
     max-width: 1000px;
     padding-left: auto;
@@ -179,7 +179,7 @@ p {
 .header .header-container img {
   height: 50px;
 }
-@media (min-width:800px) {
+@media (min-width:725px) {
   .header .header-container img {
     height: 75px;
   }
@@ -191,7 +191,7 @@ p {
   padding-left: 1.5rem;
   color: white;
 }
-@media (min-width:800px) {
+@media (min-width:725px) {
   .header .header-container p {
     text-align: left;
     padding-left: 25px;
@@ -201,7 +201,7 @@ p {
 .banner {
   display: none;
 }
-@media (min-width:800px) {
+@media (min-width:725px) {
   .banner {
     display: flex;
     justify-content: center;
@@ -218,7 +218,7 @@ p {
 .content .sections p {
   margin: 1.5em 1em;
 }
-@media (min-width:800px) {
+@media (min-width:725px) {
   .content .sections p {
     margin: 2.5em 2em;
   }
@@ -258,7 +258,7 @@ p {
   display: none;
   width: 100%;
 }
-@media (min-width:800px) {
+@media (min-width:725px) {
   .tabs .tabs-item {
     align-self: center;
   }
@@ -300,14 +300,14 @@ p {
 .menu {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   justify-content: space-around;
 }
 .menu .menu-links {
   display: none;
   width: 100%;
 }
-@media (min-width:800px) {
+@media (min-width:725px) {
   .menu .menu-links {
     display: flex;
     justify-content: space-around;
@@ -328,7 +328,7 @@ p {
 .menu .menu-links .menu-link:hover {
   background-color: #55596d;
 }
-@media (min-width:800px) {
+@media (min-width:725px) {
   .content p {
     font-size: 1.5em;
   }
