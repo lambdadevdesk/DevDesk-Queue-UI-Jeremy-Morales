@@ -1,5 +1,5 @@
 .header {
-    background: @lightgrey;
+    background: @lambda-red;
     display: flex;
     flex-flow: column wrap;
     .header-container {
@@ -7,7 +7,7 @@
     width: 100%;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 1em 1em;
         @media @desktop {
         max-width: 1000px;
@@ -18,9 +18,9 @@
     }
 
     img {
-        width: 40%;
+        height: 50px;
         @media @desktop{
-            width: 30%;
+            height: 75px;
         }
         
     }
@@ -28,7 +28,9 @@
         width: auto;
         font-family: "Lato-Bold", sans-serif;
         font-size: 2.3em;
-        text-align: left;
+        // text-align: left;
+        padding-left: 1.5rem;
+        color: white;
         @media @desktop {
             text-align: left;
             padding-left: 25px; 

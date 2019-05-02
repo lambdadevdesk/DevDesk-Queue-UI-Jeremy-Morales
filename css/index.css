@@ -155,7 +155,7 @@ p {
   font-weight: bold;
 }
 .header {
-  background: #efeff3;
+  background: #bb1333;
   display: flex;
   flex-flow: column wrap;
 }
@@ -164,7 +164,7 @@ p {
   width: 100%;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 1em 1em;
 }
 @media (min-width:800px) {
@@ -177,18 +177,19 @@ p {
   }
 }
 .header .header-container img {
-  width: 40%;
+  height: 50px;
 }
 @media (min-width:800px) {
   .header .header-container img {
-    width: 30%;
+    height: 75px;
   }
 }
 .header .header-container p {
   width: auto;
   font-family: "Lato-Bold", sans-serif;
   font-size: 2.3em;
-  text-align: left;
+  padding-left: 1.5rem;
+  color: white;
 }
 @media (min-width:800px) {
   .header .header-container p {
@@ -256,6 +257,11 @@ p {
   flex-flow: row nowrap;
   display: none;
   width: 100%;
+}
+@media (min-width:800px) {
+  .tabs .tabs-item {
+    align-self: center;
+  }
 }
 .tabs .tabs-item-selected {
   display: flex;
