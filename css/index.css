@@ -270,6 +270,10 @@ p {
   display: flex;
   flex-flow: row nowrap;
 }
+.tabs .tabs-item-selected .tabs-item-description p {
+  line-height: 1.2;
+  font-size: 1.6em;
+}
 .tabs .tabs-links {
   display: flex;
   justify-content: space-around;
